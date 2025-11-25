@@ -4,7 +4,7 @@ Leeanne, Alfred, Kesh
 # Remote Backend Questions
 
 ## When is the state file created?
-The state file gets created right after I run `terraform apply` and Terraform finishes building the resources.
+The state file gets created right after I run `terraform plan` and Terraform finishes building the resources.
 
 ## When is the lock file present?
 The lock file only shows up while Terraform is running a command like `init`, `plan`, `apply`, or `destroy`. It only exists during the operation.
