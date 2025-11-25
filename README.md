@@ -16,7 +16,7 @@ No. The lock file is temporary. Terraform removes it as soon as the command fini
 # Screenshots
 
 ## State file only
-This screenshot shows the S3 bucket after `terraform plan` finished. Only the state file is present.
+This screenshot shows the S3 bucket after `terraform apply` finished. Only the state file is present.
 
 <img width="1092" height="364" alt="image" src="https://github.com/user-attachments/assets/71215cc0-da83-4680-b420-915163fceac5" />
 
